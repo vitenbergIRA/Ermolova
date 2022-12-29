@@ -46,7 +46,7 @@ L = int(log2(n))
 for a in range(2, L + 1):
     for i in range(0, k):
         if (pow(a, int((n - 1) / p[i]), n) != 1 and pow(a, int(n - 1), n) == 1):
-            printf('Prime')
+            print('Prime')
             t = 1
 if t == 0:
     print('Composite')
